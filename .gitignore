@@ -1,0 +1,47 @@
+# Compilados / binarios
+*.o
+*.out
+prog
+a.out
+main
+core
+core.*
+
+# Saidas de teste / diffs
+xmy.txt
+xmy*.txt
+minha_saida.txt
+minha_saida*.txt
+xsaida*.txt
+saida_aluno.txt
+out.txt
+err.txt
+*.diff
+
+# Resultados do corretor
+Resultados/
+Resultado.csv
+result_compilation.txt
+result_linking.txt
+result_valgrind.txt
+
+# Valgrind
+valgrind.txt
+valgrind*.txt
+vgcore.*
+
+# Temporarios do sistema/editor
+.DS_Store
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Backups locais
+*_backup.c
+*_backup.h
+*_BACKUP/
+backup/
+
+*.txt
